@@ -1,0 +1,6 @@
+train: data/train/images
+val: data/valid/images
+test: data/test/images
+
+nc: 2   # number of classes (update if you have more/less)
+names: ['helmet', 'no_helmet']   # change according to your dataset labels

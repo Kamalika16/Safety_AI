@@ -1,0 +1,33 @@
+# Virtual environment
+safetyeye_env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Outputs and runs
+outputs/
+runs/
+predictions/
+
+# Model files (optional)
+*.pt
+*.pth
+*.h5
+
+# Dataset (optional if large)
+data/raw/
+data/processed/
+
+# IDE/editor configs
+.vscode/
+.idea/
